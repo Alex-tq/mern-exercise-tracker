@@ -72,7 +72,7 @@ export default class CreateExercises extends React.Component{
         return(
             <div>
                 <h3>Create New Exercise Log</h3>
-                <form onSubmit={this.onSubmit}>
+                <form className='form-control' onSubmit={this.onSubmit}>
                     <div className="form-group"> 
                     <label>Username: </label>
                     <select ref="userInput"
