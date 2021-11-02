@@ -12,11 +12,12 @@ function App() {
     <Router>
       <Navbar />
       <br />
-      
-      <Route exact path='/' component={ExercisesList} />
-      <Route path='/edit/:id' component={EditExercises} />
-      <Route path='/create' component={CreateExercises} />
-      <Route path='/user' component={CreateUsers} />
+      <div className='container'>
+        <Route exact path='/' component={ExercisesList} />
+        <Route path='/edit/:id' component={EditExercises} />
+        <Route path='/create' component={CreateExercises} />
+        <Route path='/user' component={CreateUsers} />
+      </div>
     </Router>
   );
 }
