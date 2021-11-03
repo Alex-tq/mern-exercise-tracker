@@ -1,6 +1,6 @@
-import React from "react";
-import { Link } from "react-router-dom";
-import axios from "axios";
+import React from 'react';
+import { Link } from 'react-router-dom';
+import axios from 'axios';
 
 const Exercise = (props) => {
     return (
@@ -47,7 +47,7 @@ export default class ExercisesList extends React.Component{
             .then(res => console.log(res.data))
 
         this.setState({
-            exercises: this.state.exercises.filter(el => el.id !== id)
+            exercises: this.state.exercises.filter(el => el._id !== id)
         })
     }
 
