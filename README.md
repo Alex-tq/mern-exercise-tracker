@@ -1,6 +1,17 @@
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+To run this project locally you must first create a .env in the /backend folder
+then add an enviroment variable called ATLAS_URI and set it equals to your MongoDB Atlas database key
+
+for example: 
+
+ATLAS_URI=mongodb+srv://alex_tq:<dbpassword>@cluster0.zirg2.mongodb.net/<dbname>?retryWrites=true&w=majority
+
+replace <dbpassword> with your password and replace <dbname> with your database name
+
 
 ## Available Scripts
 
