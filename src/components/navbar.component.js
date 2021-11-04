@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import { Link } from 'react-router-dom'
 
+
 export default class Navbar extends Component {
     
     render(){
@@ -11,7 +12,7 @@ export default class Navbar extends Component {
                     <span class="navbar-toggler-icon"></span>
                 </button>
 
-                <div id='navigation' className='collapse navbar-collapse'>
+                <div id='navigation' className='collapse navbar-collapse' data-toggle="collapse" data-target=".navbar-collapse">
                     <ul className='navbar-nav mr-auto'>
                         <li className='navbar-item'>
                             <Link to='/' className='nav-link'>Exercises</Link>
